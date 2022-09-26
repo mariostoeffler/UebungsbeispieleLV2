@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d135f3dd-acc5-43c3-b22e-065b5bc68905" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="d135f3dd-acc5-43c3-b22e-065b5bc68905" name="Changes" comment="final version">
+      <change afterPath="$PROJECT_DIR$/src/WinterreifenpflichtDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NotenDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotenDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WinterreifenpflichtDemo">
     <configuration name="NotenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NotenDemo" />
       <module name="UebungsbeispieleLV2" />
@@ -47,8 +46,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WinterreifenpflichtDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WinterreifenpflichtDemo" />
+      <module name="UebungsbeispieleLV2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WinterreifenpflichtDemo" />
         <item itemvalue="Application.NotenDemo" />
       </list>
     </recent_temporary>
@@ -62,6 +69,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664207665474</updated>
     </task>
+    <task id="LOCAL-00001" summary="final version">
+      <created>1664213877467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664213877467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
   </component>
 </project>
