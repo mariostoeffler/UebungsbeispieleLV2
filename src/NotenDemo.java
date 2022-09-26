@@ -1,24 +1,41 @@
 public class NotenDemo {
 
     public static void main(String[] args) {
-        getNotentext(87);
+
+
+        String verygood = getNotentext(91);
+        System.out.println(verygood);
+
+        String good = getNotentext(87);
+        System.out.println(good);
+
+        String satisfying = getNotentext(73);
+        System.out.println(satisfying);
+
+        String enough = getNotentext(62);
+        System.out.println(enough);
+
+        String notenough = getNotentext(0);
+        System.out.println(notenough);
     }
 
-
-    public static void getNotentext(int punkte) {
-
+    public static String getNotentext(int punkte) {
+        String verygood = "Sehr gut1!";
+        String good = "gut!";
+        String satisfying = "Befriedigend!";
+        String enough = "Genügend!";
+        String notenough = "Nicht Genügend!";
 
         if (punkte <= 50) {
-            System.out.println("Nicht genügend! " + punkte);
         } else if (punkte > 50 && punkte <= 64) {
-            System.out.println("Genügend " + punkte);
+            return enough;
         } else if (punkte > 64 && punkte <= 77) {
-            System.out.println("Befriedigend " + punkte);
+            return satisfying;
         } else if (punkte > 77 && punkte <= 89) {
-            System.out.println("Gut! " + punkte);
+            return good;
         } else if (punkte >= 90) {
-            System.out.println("Sehr gut!! " + punkte);
+            return verygood;
         }
-
+        return notenough;
     }
 }
